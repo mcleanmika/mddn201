@@ -1,0 +1,793 @@
+body {
+
+  background-color: #F9F3F1;
+  font-family: 'Merriweather', serif;;
+
+  
+}
+
+h1{
+  font-family: 'Merriweather', serif;
+  color: red;
+  margin-left: 100px; 
+  margin-top: 40px; 
+  font-size: 130px;
+  text-decoration: none;
+
+
+}
+
+h2{
+  font-family: 'Letter Gothic Std', sans-serif;
+  color: white;
+  margin-left: -150px; 
+  margin-top: 170px; 
+  font-size: 20px;
+  text-decoration: none;
+
+
+}
+
+h3{
+  font-family: 'Letter Gothic Std', sans-serif;
+  color: #333;
+  margin-left: 30px; 
+  margin-top: 20px; 
+  font-size: 15px;
+  text-decoration: none;
+
+
+}
+
+h4{
+  font-family: 'Letter Gothic Std', sans-serif;
+  color: #333;
+  margin-left: 25px; 
+  margin-top: 30px; 
+  font-size: 18px;
+  text-decoration: none;
+
+}
+
+h5{
+  font-family: "proxima-nova","helvetica","arial","sans"; 
+  font-weight: lighter;
+  color: white;
+  font-size: 20px;
+  margin-left:-20px; 
+  margin-top: 20px; 
+  text-align: center;
+  
+}
+
+h6{
+  font-family: 'Letter Gothic Std', sans-serif;
+  color: white;
+  margin-left: 25px; 
+  margin-top: 30px; 
+  font-size: 15px;
+  text-decoration: none;
+
+}
+
+p{
+  font-family: 'Letter Gothic Std', sans-serif;
+  color: #333;
+  margin-left: 25px; 
+  margin-top: 30px; 
+  font-size: 15px;
+  text-decoration: none;
+}
+
+
+
+
+
+#lachy {
+   margin-left: 120px; 
+   margin-top:30px;
+   }
+
+#timetitle {
+  
+   margin-top: 100px;
+
+ }
+
+ #logo{
+  margin-left: 0px; 
+  margin-top:0px;
+
+ }
+
+#login{
+  margin-top: 0px;
+  font-size: 30px;
+  font-family: 'Letter Gothic Std', sans-serif;
+  
+  
+
+ }
+
+
+
+#aboutus{
+  margin-top: 70px;
+
+}
+
+#contactpage{
+  position: fixed;
+  z-index: -1;
+  opacity: 0.4;  
+  width: 100%;
+}
+
+#profilepage{
+  position: fixed;
+  z-index: 1;
+   
+}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+#login{
+  background-color: #555;
+  font-size: 16px;
+  color: white;
+}
+
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+
+.container {
+    padding: 40px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 10px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+    font-family: 'Letter Gothic Std', sans-serif;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 320px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 30%;
+       background-color: #333;
+    }
+}
+
+/*SIGN UP*/
+
+#signup{
+  font-size: 35px;
+  text-align: center;
+
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+
+}
+
+.purchasebtn {
+    padding: 14px 20px;
+    background-color: white;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 17%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+    font-family: 'Letter Gothic Std', sans-serif;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 200px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
+
+
+
+.container2 {
+  margin-left: 640px;
+  width: 250%
+}
+
+
+.container3 {
+  margin-left: 640px;
+  width: 250%
+}
+.column3 {
+  width: 33.3%;
+  float:left;
+  margin:;
+}
+
+.basic{
+  margin-left: 550px;
+  width:80%;
+  margin-right: auto;
+}
+.premium {
+  margin-left: 750px;
+  width:80%;
+  margin-right: auto;
+  border-radius: 15px;
+
+}
+
+.premiumplus {
+  margin-left: 950px;
+  width:80%;
+  margin-right: auto;
+
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    margin-left: 600px; 
+    margin-right: 350px;
+    margin-top: -120px; 
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #F9F3F1;
+    text-align: center;
+    padding: 24px 40px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Letter Gothic Std', sans-serif;
+
+}
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    border-radius: 12px;
+    background-color: #F9F3F1;
+    color: darkgrey;
+    text-decoration: none;
+    font-family: 'Letter Gothic Std', sans-serif;
+    font-size: 22px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 239px;
+    background-color: #555;
+    color: white;
+    margin-top: 20px;
+}
+
+.sidebar li a {
+    display: block;
+    color: white;
+    padding: 17px 16px;
+    height: 60px;
+    text-decoration: none;
+    font-family: 'Letter Gothic Std', sans-serif;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    border-bottom: #888 1px solid;
+}
+
+/* Change the link color on hover */
+.sidebar li a:hover {
+    background-color: #999;
+    color: white;
+
+}
+
+.payment ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 168px;
+    background-color: #f1f1f1;
+    margin-top: 20px; 
+
+}
+
+.payment li a {
+    display: block;
+    color: #333;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Letter Gothic Std', sans-serif;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    border-bottom: #888 1px solid;
+}
+
+/* Change the link color on hover */
+.payment li a:hover {
+    background-color: #555;
+    color: white;
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 1px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 0.5px; /* Add a top margin */
+    margin-bottom: 6px; /* Bottom margin */
+    font-family: 'Letter Gothic Std', sans-serif;
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #333;
+    font-family: 'Letter Gothic Std', sans-serif;
+    color: white;
+    padding: 6px 6px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #333;
+    font-family: 'Letter Gothic Std', sans-serif;
+}
+
+
+
+/* Add a background color and some padding around the form */
+.contact {
+    display: inline-block;
+    margin-top: 195px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: darkgrey;
+    padding: 20px;
+    width: 60%;
+    font-family: 'Letter Gothic Std', sans-serif;
+    font-size: 15px;
+
+}
+
+.column{
+  width: 50%;
+  float:right;
+
+}
+
+.column1{
+  width: 100%;
+  float:right;
+
+}
+
+
+.info{
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width:30%;
+  background-color: darkgrey;
+  width: 390px;
+  padding: 25px;
+}
+
+
+.col-sm-12{
+  border-radius: 20px;
+  width: 100%;
+}
+
+
+.future{
+  margin-top: -400px;
+  margin-left: 70px;
+  background-color: white;
+  border-radius: 15px;
+  width: 420px;
+  height:210px;
+
+  
+}
+
+.buttons{
+   background-color: white;
+   width:120px;
+    border: none;
+    color: #333;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1cm 0cm 0cm 0cm;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Letter Gothic Std', sans-serif;
+   
+    
+
+}
+
+.buttons:hover{
+  background-color: #999;
+  font-family: 'Letter Gothic Std', sans-serif;
+
+}
+
+.cd-pricing > li {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: .3em .3em .25em .25em;
+  box-shadow: 0 2px 8px rgba(2, 4, 5, 0.5);
+  font-family: 'Letter Gothic Std', sans-serif; 
+  color: #111;
+}
+ 
+.cd-pricing > li.empty-box {
+  box-shadow: none;
+  font-family: 'Letter Gothic Std', sans-serif; 
+  color: #333;
+}
+ 
+.cd-pricing > li.empty-box::after {
+  /* placeholder visible when .cd-form is open - in this case same color of the background */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 300px;
+  width: 100%;
+  height: 100%;
+  background-color: #0f222b;
+  font-family: 'Letter Gothic Std', sans-serif; 
+color: #333;
+}
+
+.cd-pricing-footer a {
+  transition: transform 0.3s;
+}
+ 
+.empty-box .cd-pricing-footer a {
+  /* scale down to 0 the action button when sign up form is visible */
+  transform: scale(0);
+
+
+}
+ 
+.cd-form {
+  position: fixed;
+  z-index: 2;
+  background-color: #ffffff;
+  border-radius: .25em;
+  visibility: hidden;
+  transition: visibility 0s 0.8s;
+ 
+  /* Force Hardware Acceleration in WebKit */
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+ 
+.cd-form.is-visible {
+  /* form is visible */
+  visibility: visible;
+  transition: visibility 0s 0s;
+}
+
+.cd-form .cd-pricing-features::before {
+  /* this is the layer which covers the .cd-pricing-features when the form is open - visible only on desktop */
+  content: '';
+  position: absolute;
+  /* fix a bug while animating - 1px white space visible */
+  top: -5px;
+  left: 0;
+  
+  height: calc(100% + 5px);
+  width: 100%;
+  background-color: #95ac5f;
+ 
+  will-change: transform;
+  transform: scaleY(0);
+  transform-origin: center top;
+  transition: transform 0.6s 0.2s;
+}
+
+button {
+ background-color: white;
+   width:170px;
+    border: none;
+    color: #333;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1cm 0cm 0cm 0cm;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Letter Gothic Std', sans-serif;
+}
+
+button:hover {
+    background-color: #999;
+    color: red;
+}
+
+
+#basic{
+font-family: 'Letter Gothic Std', sans-serif;
+color: #333;
+}
+
+#premium{
+font-family: 'Letter Gothic Std', sans-serif;
+color: #333;
+}
+
+#premiumplus{
+font-family: 'Letter Gothic Std', sans-serif; 
+color: #333;
+}
+
+#crossfade1 img {
+    position:absolute;
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;    
+    transition: opacity 1s ease-in-out;
+    float: left; 
+    height: 250px;
+    width: 250px;
+
+}
+ 
+#crossfade1 img.top:hover {
+    opacity:0;
+}
+
+hr{
+ width:80%;
+
+}
+
+.question{
+  height:80px;
+  width: 50%;
+  margin-top: -300px;
+  margin-left: 550px;
+  margin-right: auto;
+}
+
+.question2{
+
+ 
+}
+
+.questionbtn{
+  height:70px;
+  width: 10%;
+  margin-top: 140px;
+  margin-left: 1258px;
+  margin-right: auto;
+  background-color: #555;
+  color: white;
+}
+
+#purchase{
+  font-size: 25px;
+  text-align: center;
+  margin-top: -500px;
+
+}
+
+#answer{
+  font-size: 28px;
+  text-align: center;
+  margin-top: -500px;
+
+}
+
+#welcome{
+  font-size: 35px;
+  text-align: center;
+
+}
+
+
+#welcome2{
+  font-size: 17px;
+  text-align: center;
+
+}
+
+#timeinfo{
+  font-family: 'Letter Gothic Std', sans-serif;
+  color: black;
+  font-size: 15px;
+  background-color: white;
+  width: 1030px;
+  padding: 25px;
+  margin-left: -515px;
+  margin-top: 50px;
+
+
+}
+
+#timeinfo2{
+  font-family: 'Letter Gothic Std', sans-serif;
+  color: white;
+  font-size: 14px;
+  background-color: #555;
+  width: 1030px;
+  padding: 25px;
+  margin-left: -515px;
+  margin-top: 40px;
+
+
+}
+
+#findus{
+  font-size: 35px;
+  text-align: center;
+
+}
+
+#findus2{
+  font-size: 15px;
+  text-align: center;
+
+}
+
+
+/*code above is sorced from https://www.w3schools.com/ and edited to fit my website.*/
+
+
